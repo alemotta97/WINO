@@ -1,0 +1,212 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 1280px;
+    margin: auto;
+   
+
+}
+
+#container {
+    background-color: white;
+    width: 100%;
+}
+
+p {
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    
+}
+
+#boxlogo {
+    width: 70px;
+    height: 70px; 
+    margin-top: 10px;
+    background-image: url("images/logo/logo_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: row;
+    
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.1em;
+    
+}
+
+
+li {
+    flex-direction: row;
+    margin: 15px;
+}
+
+li:nth-child(3) {
+    margin-left: 4em;
+}
+
+a:link {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+
+}
+
+input {
+    flex-direction: row;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 25em;
+    width: 30em;
+    height: 2em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.row {
+
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+.about-text-wrapper {
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    
+
+}
+
+
+.about-text-wrapper h1 {
+    font-size: 4em; color: darkred;
+
+}
+
+.about-text-wrapper p {
+ padding: 30px;
+}
+
+
+.about-img-wrapper {
+    flex-direction: row;
+    width: 50%; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    height: 500px;
+    background-color: #eeeeee;
+}
+
+  
+
+.about-img-wrapper h3 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.about-img-wrapper button {
+
+margin-left: 270px;
+
+}
+
+button {
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+
+li a {
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+a:link {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+
+}
+
+.link-row {
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+
+
+.social-logo {
+    flex-direction: row;
+    padding-top: 30px;
+    margin: auto;
+    padding-bottom: 30px;
+}

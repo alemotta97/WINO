@@ -1,0 +1,206 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 1280px;
+    margin: auto;
+    background-color: white;
+
+}
+
+p {
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    
+}
+
+#boxlogo {
+    width: 70px;
+    height: 70px; 
+    margin-top: 10px;
+    background-image: url("images/logo/logo_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: row;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.1em;
+    
+}
+
+
+li {
+    flex-direction: row;
+    margin: 15px;
+}
+
+li:nth-child(3) {
+    margin-left: 4em;
+}
+
+a:link {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+
+}
+
+input {
+    flex-direction: row;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 25em;
+    width: 30em;
+    height: 2em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+
+.price-button {
+
+    color: white;
+    background-color: darkred;
+    border-radius: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+    
+}
+
+
+.box-img-container {
+
+ width: 200px; 
+ height: 200px; 
+ background-size: contain;
+
+}
+
+#product-slider {
+
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+border: 1px solid gray;
+flex-direction: row;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #ebebeb;
+border-radius: 15px;
+
+margin-top: 50px;
+
+
+}
+
+.product-img-container {
+
+   flex-direction: column;
+   margin: auto;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+
+a:link {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+
+}
+
+.link-row {
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+
+
+.social-logo {
+    flex-direction: row;
+    padding-top: 30px;
+    margin: auto;
+    padding-bottom: 30px;
+}
